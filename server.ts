@@ -1573,14 +1573,26 @@ async function startServer() {
       if (fs.existsSync(rootHtml) && !fs.existsSync(indexHtmlPath)) {
         fs.copyFileSync(rootHtml, indexHtmlPath);
       }
-      app.use(express.static(distPath));
-      app.get('*', (req, res) => res.sendFile(indexHtmlPath));
-    }
+// --- MODIFICA ESTA SECCIÓN FINAL EN TU ARCHIVO ---
+// 1. Esto sirve los archivos estáticos de la carpeta dist (Pintura/Tailwind CSS) SIEMPRE como prioridad
+app.use(express.static(distPath));
+// 2. Bloque de inicialización que ya tenías (déjalo pasar)
+try {
+  // Aquí mantén lo que tenías de vite.middlewares si se requiere, pero lo estático ya tiene prioridad afuera
+  if (process.env.NODE_ENV !== 'production') {
+    app.use(vite.middlewares);
   }
-
-  httpServer.listen(PORT, '0.0.0.0', () => {
-    console.log(`Server listening on http://0.0.0.0:${PORT} (Mode: ${hasDist ? 'Production (Static)' : 'Development (Vite)'})`);
-  });
+} catch (viteErr) {
+  console.error('Could not start Vite middleware:', viteErr);
+}
+// 3. Esto asegura que cualquier ruta secundaria cargue el index.html principal
+app.get('*', (req, res) => {
+  res.sendFile(indexHtmlPath);
+});
+// El servidor escucha de forma normal
+httpServer.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server listening on http://0.0.0:${PORT} (Mode: Production)`);
+});
 }
 
 startServer().catch(err => {
