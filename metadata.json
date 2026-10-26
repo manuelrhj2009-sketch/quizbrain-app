@@ -1,0 +1,7 @@
+{
+  "name": "DocuQuiz Live",
+  "description": "Plataforma de cuestionarios interactivos en tiempo real basada en cuadernos de estudio con IA de Gemini y modo proyector/controlador móvil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

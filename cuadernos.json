@@ -1,0 +1,280 @@
+[
+  {
+    "id": "nb-1792499359758-ykprp",
+    "title": "TALLER MRP",
+    "description": "",
+    "sources": [
+      {
+        "id": "src-1792499451907-h046",
+        "name": "MRP - Importancia.pdf",
+        "type": "pdf",
+        "sizeBytes": 183701,
+        "content": "No se pudo extraer texto del PDF directamente.",
+        "charCount": 46,
+        "uploadedAt": 1792499451907
+      }
+    ],
+    "quizzes": [],
+    "history": [],
+    "createdAt": 1792499359758
+  },
+  {
+    "id": "nb-biologia-01",
+    "title": "Biología Celular: Estructura, Mitosis y Genética",
+    "description": "Cuaderno completo sobre organelos celulares, ciclo celular, mitosis y principios de genética mendeliana.",
+    "createdAt": 1792326393436,
+    "sources": [
+      {
+        "id": "src-bio-1",
+        "name": "Fundamentos de la Célula y Mitosis.txt",
+        "type": "txt",
+        "sizeBytes": 3200,
+        "uploadedAt": 1792326393436,
+        "charCount": 2850,
+        "content": "La célula es la unidad morfológica y funcional de todo ser vivo.\nExisten dos grandes tipos de células: procariotas (sin núcleo definido, como las bacterias) y eucariotas (con núcleo delimitado por una carioteca, como animales y vegetales).\n\nORGANELOS PRINCIPALES:\n1. Mitocondria: Responsable de la respiración celular y síntesis de ATP (energía) mediante la fosforilación oxidativa. Posee su propio ADN mitocondrial.\n2. Cloroplasto: Presente en células vegetales, realiza la fotosíntesis fijando CO2 en glucosa mediante la clorofila en los tilacoides.\n3. Ribosomas: Sintetizan proteínas traduciendo el ARN mensajero. Se encuentran libres en el citoplasma o adosados al retículo endoplasmático rugoso.\n4. Aparato de Golgi: Empaqueta, procesa y distribuye proteínas y lípidos provenientes del retículo hacia sus destinos celulares o secreción.\n5. Lisosomas: Vesículas digestivas con enzimas hidrolíticas ácidas que degradan desechos celulares y patógenos.\n\nEL CICLO CELULAR Y MITOSIS:\nEl ciclo celular comprende la Interfase (G1, S donde se replica el ADN, G2) y la fase M (Mitosis y Citocinesis).\nLa Mitosis consta de 4 fases principales:\n- Profase: La cromatina se condensa en cromosomas visibles, desaparece el nucléolo y se forma el huso mitótico.\n- Metafase: Los cromosomas se alinean en el plano ecuatorial de la célula gracias a las fibras del huso ancladas en los cinetocoros.\n- Anafase: Las cromátidas hermanas se separan y migran hacia los polos opuestos de la célula.\n- Telofase: Se reorganiza la envoltura nuclear alrededor de cada grupo cromosómico y los cromosomas se descondensan.\nLa citocinesis divide el citoplasma, resultando en dos células hijas idénticas diploides (2n)."
+      },
+      {
+        "id": "src-bio-2",
+        "name": "Genética Mendeliana y ADN.txt",
+        "type": "txt",
+        "sizeBytes": 2400,
+        "uploadedAt": 1792412793436,
+        "charCount": 2150,
+        "content": "LEYES DE GREGOR MENDEL:\n1. Ley de la Uniformidad: Al cruzar dos razas puras homocigotas para un determinado carácter, los descendientes de la primera generación (F1) son todos iguales fenotípica y genotípicamente entre sí.\n2. Ley de la Segregación: Durante la formación de los gametos, los alelos de un gen se separan, de modo que cada gameto lleva solo un alelo para cada carácter.\n3. Ley de la Transmisión Independiente: Diferentes rasgos son heredados independientemente unos de otros, no existe relación entre ellos (válido para genes en cromosomas no homólogos).\n\nESTRUCTURA DEL ADN:\nEl Ácido Desoxirribonucleico (ADN) está constituido por una doble hélice antiparalela descubierta por Watson y Crick.\nLos monómeros son nucleótidos formados por un grupo fosfato, una desoxirribosa y una base nitrogenada.\nApareamiento de bases complementarias:\n- Adenina (A) se une con Timina (T) mediante 2 puentes de hidrógeno.\n- Guanina (G) se une con Citosina (C) mediante 3 puentes de hidrógeno."
+      },
+      {
+        "id": "src-1792506821059-zfd9",
+        "name": "prueba.txt",
+        "type": "txt",
+        "sizeBytes": 39,
+        "content": "Contenido de prueba de archivo de texto",
+        "charCount": 39,
+        "uploadedAt": 1792506821059
+      },
+      {
+        "id": "src-1792507715082-2fy5",
+        "name": "guia_estudio.xlsx",
+        "type": "xlsx",
+        "sizeBytes": 16067,
+        "content": "[Hoja: Datos]\nTema,Detalle\nCélula,Unidad de la vida\nMitocondria,Energía ATP",
+        "charCount": 75,
+        "uploadedAt": 1792507715082
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "quiz-bio-demo",
+        "notebookId": "nb-biologia-01",
+        "title": "Desafío de Biología Celular y Mitosis",
+        "description": "Cuestionario de prueba generado y aprobado con 5 preguntas clave.",
+        "timePerQuestion": 15,
+        "complexity": "Medio",
+        "approved": true,
+        "createdAt": 1792495593436,
+        "questions": [
+          {
+            "id": "q-1",
+            "text": "¿Cuál es el organelo encargado de la respiración celular y generación de ATP?",
+            "options": [
+              {
+                "id": "0",
+                "text": "Mitocondria",
+                "suit": "hearts",
+                "color": "red",
+                "symbol": "♥",
+                "colorName": "Rojo"
+              },
+              {
+                "id": "1",
+                "text": "Aparato de Golgi",
+                "suit": "diamonds",
+                "color": "blue",
+                "symbol": "♦",
+                "colorName": "Azul"
+              },
+              {
+                "id": "2",
+                "text": "Ribosoma",
+                "suit": "clubs",
+                "color": "yellow",
+                "symbol": "♣",
+                "colorName": "Amarillo"
+              },
+              {
+                "id": "3",
+                "text": "Lisosoma",
+                "suit": "spades",
+                "color": "green",
+                "symbol": "♠",
+                "colorName": "Verde"
+              }
+            ],
+            "correctOptionIndex": 0,
+            "feedback": "La mitocondria realiza la fosforilación oxidativa para sintetizar la mayor parte del ATP que la célula necesita para sus funciones metabólicas."
+          },
+          {
+            "id": "q-2",
+            "text": "En la mitosis, ¿en qué fase se alinean los cromosomas en la placa o plano ecuatorial?",
+            "options": [
+              {
+                "id": "0",
+                "text": "Profase",
+                "suit": "hearts",
+                "color": "red",
+                "symbol": "♥",
+                "colorName": "Rojo"
+              },
+              {
+                "id": "1",
+                "text": "Metafase",
+                "suit": "diamonds",
+                "color": "blue",
+                "symbol": "♦",
+                "colorName": "Azul"
+              },
+              {
+                "id": "2",
+                "text": "Anafase",
+                "suit": "clubs",
+                "color": "yellow",
+                "symbol": "♣",
+                "colorName": "Amarillo"
+              },
+              {
+                "id": "3",
+                "text": "Telofase",
+                "suit": "spades",
+                "color": "green",
+                "symbol": "♠",
+                "colorName": "Verde"
+              }
+            ],
+            "correctOptionIndex": 1,
+            "feedback": "Durante la Metafase, los cromosomas condensados se sitúan perfectamente ordenados en el ecuador de la célula mediante las fibras del huso ancladas al cinetocoro."
+          },
+          {
+            "id": "q-3",
+            "text": "¿Cuántos puentes de hidrógeno unen a la Guanina (G) y Citosina (C) en la doble hélice de ADN?",
+            "options": [
+              {
+                "id": "0",
+                "text": "1 puente de hidrógeno",
+                "suit": "hearts",
+                "color": "red",
+                "symbol": "♥",
+                "colorName": "Rojo"
+              },
+              {
+                "id": "1",
+                "text": "2 puentes de hidrógeno",
+                "suit": "diamonds",
+                "color": "blue",
+                "symbol": "♦",
+                "colorName": "Azul"
+              },
+              {
+                "id": "2",
+                "text": "4 puentes de hidrógeno",
+                "suit": "clubs",
+                "color": "yellow",
+                "symbol": "♣",
+                "colorName": "Amarillo"
+              },
+              {
+                "id": "3",
+                "text": "3 puentes de hidrógeno",
+                "suit": "spades",
+                "color": "green",
+                "symbol": "♠",
+                "colorName": "Verde"
+              }
+            ],
+            "correctOptionIndex": 3,
+            "feedback": "El par Guanina-Citosina se une mediante 3 puentes de hidrógeno (a diferencia de Adenina-Timina que se unen con 2), haciéndolo más termodinámicamente estable."
+          },
+          {
+            "id": "q-4",
+            "text": "¿En qué etapa de la interfase ocurre la replicación y duplicación del ADN?",
+            "options": [
+              {
+                "id": "0",
+                "text": "Fase G1",
+                "suit": "hearts",
+                "color": "red",
+                "symbol": "♥",
+                "colorName": "Rojo"
+              },
+              {
+                "id": "1",
+                "text": "Fase S (Síntesis)",
+                "suit": "diamonds",
+                "color": "blue",
+                "symbol": "♦",
+                "colorName": "Azul"
+              },
+              {
+                "id": "2",
+                "text": "Fase G2",
+                "suit": "clubs",
+                "color": "yellow",
+                "symbol": "♣",
+                "colorName": "Amarillo"
+              },
+              {
+                "id": "3",
+                "text": "Fase M (Mitosis)",
+                "suit": "spades",
+                "color": "green",
+                "symbol": "♠",
+                "colorName": "Verde"
+              }
+            ],
+            "correctOptionIndex": 1,
+            "feedback": "En la fase S (Síntesis) de la interfase celular, el material genético se duplica de modo que cada cromosoma queda constituido por dos cromátidas hermanas idénticas."
+          },
+          {
+            "id": "q-5",
+            "text": "¿Qué organelo contiene enzimas hidrolíticas para digerir desechos celulares y patógenos?",
+            "options": [
+              {
+                "id": "0",
+                "text": "Cloroplasto",
+                "suit": "hearts",
+                "color": "red",
+                "symbol": "♥",
+                "colorName": "Rojo"
+              },
+              {
+                "id": "1",
+                "text": "Retículo Liso",
+                "suit": "diamonds",
+                "color": "blue",
+                "symbol": "♦",
+                "colorName": "Azul"
+              },
+              {
+                "id": "2",
+                "text": "Lisosoma",
+                "suit": "clubs",
+                "color": "yellow",
+                "symbol": "♣",
+                "colorName": "Amarillo"
+              },
+              {
+                "id": "3",
+                "text": "Centrosoma",
+                "suit": "spades",
+                "color": "green",
+                "symbol": "♠",
+                "colorName": "Verde"
+              }
+            ],
+            "correctOptionIndex": 2,
+            "feedback": "Los lisosomas funcionan como el sistema digestivo de la célula, degradando sustancias endocitadas y componentes celulares viejos mediante autofagia."
+          }
+        ]
+      }
+    ],
+    "history": []
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "roomCode": "649799",
+    "adminSocketId": "GHKUrZrpj6uEBOmQAAAB",
+    "quiz": {
+      "id": "test-quiz",
+      "notebookId": "nb-test",
+      "title": "Quiz de Prueba",
+      "timePerQuestion": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Pregunta 1",
+          "options": [
+            {
+              "id": "0",
+              "text": "A"
+            },
+            {
+              "id": "1",
+              "text": "B"
+            }
+          ],
+          "correctOptionIndex": 0
+        }
+      ]
+    },
+    "phase": "lobby",
+    "currentQuestionIndex": -1,
+    "questionStartTime": null,
+    "players": [
+      [
+        "I5otnu-tFi1IC_soAAAC",
+        {
+          "socketId": "I5otnu-tFi1IC_soAAAC",
+          "id": "I5otnu-tFi1IC_soAAAC",
+          "firstName": "Carlos",
+          "lastName": "Morales",
+          "fullName": "Morales, Carlos",
+          "connected": false,
+          "score": 0,
+          "totalTime": 0
+        }
+      ]
+    ],
+    "answers": [],
+    "updatedAt": 1792816614905
+  }
+]
